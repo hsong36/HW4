@@ -1,0 +1,54 @@
+body
+{
+	background-color: cornsilk;
+}
+header, main, footer 
+{
+	min-width: 855px;
+}
+header .container, main .container, footer .container 
+{
+	max-width: 855px;
+	margin: auto;
+}
+
+header 
+{
+	overflow: auto;
+	background-color: cornsilk;
+}
+header h1
+{
+	float: left;
+	width: 570px;
+}
+header nav
+{
+	float: right;
+	width: 285px;
+}
+main 
+{
+	background-color: white;
+	overflow: auto;
+}
+main .left
+{
+	float: left;
+	width: 570px;
+}
+main .right 
+{
+	float: right;
+	width: 100px;
+}
+footer.left 
+{
+	float: left;
+	width: 570px;
+}
+footer .sitemap 
+{
+	float: left;
+	width: 285px;
+}
